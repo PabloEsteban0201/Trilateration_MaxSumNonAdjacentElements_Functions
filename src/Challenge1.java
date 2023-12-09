@@ -23,6 +23,7 @@ public class Challenge1 {
      * Calculates the location of the vehicle by solving the system of equations
      * @param distances An array of the distances captured by the satellites
      * @return The position of the vehicle in form of an array [x,y]
+     * @return Null if the position could not be found
      */
     public static double[] getLocation(double distances[]) {
 
